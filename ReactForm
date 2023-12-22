@@ -1,0 +1,21 @@
+
+
+function App() {
+  return (
+    <div className="App">
+     <header>Mentee-App-India</header>
+
+<section>
+<h1>Counselling Form</h1>
+  <label>Enter Your Name: <input type="text" name="candidate"/></label><br/>
+  <label>Enter Your Age: <input type="number" name="candidate"/></label><br/>
+  <label>Enter Your Gender: <input type="text"  id="gender" name="candidate"/></label><br/>
+  <label>Enter Your Email-Id: <input type="text" id="gmail" name="candidate"/></label><br/>
+  <input type="submit"/>
+</section>
+
+    </div>
+  );
+}
+
+export default App;
