@@ -1,0 +1,9 @@
+#posts {
+  width: 400px;
+}
+
+#posts div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
